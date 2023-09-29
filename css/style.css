@@ -1,0 +1,104 @@
+
+
+body{
+    background-color: #01D300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#widget_login{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    #widget_login{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+h2{
+    padding: 0px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+img#banner_mercado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+
+div#container_textos{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    background-color: #043712;
+    border-radius: 30px;
+    bottom: 46px;
+    left: 16px;
+    box-shadow: 15px 15px 30px black;
+}
+
+h1#text1{
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+h1#text2{
+    color: white;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+h1#text3{
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+div#container_text3{
+    position: fixed;
+    background-color: #01D300;
+    border-radius: 30px;
+    width: 370px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 16px;
+}
+
+img#modelo_logo_saqpay{
+    position: fixed;
+    width: 100px;
+    margin-left: 410px;
+}
+
+h1#text4{
+    color: white;
+    font-size: 18px;
+}
+
+div#container_text4{
+    position: fixed;
+    margin-left: 530px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
